@@ -4,3 +4,6 @@
 [submodule "custom/plugins/enhancd"]
 	path = custom/plugins/enhancd
 	url = https://github.com/b4b4r07/enhancd.git
+[submodule "custom/plugins/git-flow-completion"]
+	path = custom/plugins/git-flow-completion
+	url = https://github.com/bobthecow/git-flow-completion.git
