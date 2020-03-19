@@ -7,3 +7,6 @@
 [submodule "custom/plugins/git-flow-completion"]
 	path = custom/plugins/git-flow-completion
 	url = https://github.com/bobthecow/git-flow-completion.git
+[submodule "custom/plugins/zsh-completions"]
+	path = custom/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
