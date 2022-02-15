@@ -13,3 +13,6 @@
 [submodule "custom/plugins/zsh-syntax-highlighting"]
 	path = custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "custom/themes/spaceship-prompt"]
+	path = custom/themes/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git
