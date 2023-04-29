@@ -1,7 +1,12 @@
 export PATH=$PATH:$HOME/bin
 
-# ANSIWEATHER conf
-export ANSIWEATHERRC="$ZSH_CUSTOM/ansiweatherrc"
 
-# enhancd plugin zsh conf
-export ENHANCD_FILTER=fzy
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+# Pyenv-virtualenv
+eval "$(pyenv virtualenv-init -)"
+# Nord dircolors
+test -r ~/.dircolors && eval $(dircolors ~/.dircolors)
